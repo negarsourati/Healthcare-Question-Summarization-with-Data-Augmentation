@@ -5,21 +5,20 @@
   - Selection of high-quality paraphrases using:
     - Frechét Question Distance (FQD)  
     - Precision Recall Question Distance (PRQD)  
-    - Question Semantic Volume (QSV) (bonus).  
+    - Question Semantic Volume (QSV).  
 
 - **Summarization Models**:
-  - ProphetNet
   - BART
   - T5
-  - GPT-based models (optional)
+  - GPT-based models
 
 - **Evaluation Metrics**:
   - ROUGE-1, ROUGE-2
-  - BLEU, METEOR (bonus)
+  - BLEU, METEOR
 
 ---
 
-## 🛠️ Steps Implemented
+## Steps Implemented
 1. Load and preprocess MEQSUM dataset.  
 2. Perform RTT-based paraphrase generation.  
 3. Apply FQD, PRQD, and QSV to filter diverse and informative questions.  
